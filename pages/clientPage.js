@@ -2,7 +2,7 @@ import styles from '@/styles/Home.module.css'
 import { useTranslation } from "next-i18next"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-const Home = () =>
+const Client = () =>
 {
   const { t, ready } = useTranslation('common');
 
@@ -21,4 +21,4 @@ export const getStaticProps = async ({ locale }) => ({
   },
 });
 
-export default Home
+export default Client
